@@ -1,0 +1,6 @@
+if [ -z "$2" ]; then
+	ampy run $1
+else
+	ampy put $1
+	ampy run $2
+fi
